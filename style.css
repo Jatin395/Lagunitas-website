@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#nav_top{
+    width: 94.2vw;
+    left: 12px;
+    z-index: 1;
+    padding: 16px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;    
+}
+#nav_top img{
+    width: 180px;
+}
+#nav_top button{
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'dark heavy';
+    text-transform: uppercase;
+    border: 0.5px solid red;
+    background-color: rgb(199, 29, 29);
+}
+#nav_top i{
+    display: none;
+}
+
+/* left nav */
+#nav_left{
+    width: 90px;
+    height: 100vh;
+    display: flex;
+    padding: 12px;
+    font-size: 30px;
+    position: absolute;
+    border-right: 2px solid black;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+}
+#nav_left i{
+    cursor: pointer;
+}
+
+/* first section */
+#bottle{
+    position: absolute;
+    left: 38%;
+    top: 0;
+    height: 95vh;
+    z-index: 990;
+}
+/* page 1 */
+#page1{
+    display: flex;
+    width: 100vw;
+    height: 100vh;        
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#page1 h1{
+    width: 60vw;
+    font-weight: 900;
+    background-color: rgb(153, 13, 13);
+    font-size: 12vw;    
+    font-family: 'Antom', sans-serif;    
+    text-transform: uppercase;
+    background-image: url('./Lagunitas-Website-YouTube-main/img/texture.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+#dog{
+    width: 20vw;
+    position: absolute;
+}
+
+/* page 2 section */
+#page2{
+    display: flex;
+    padding: 18px;
+    padding: 0 4.1vw 0 10vw;    
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* left section  */
+#page2_1{
+    width: 25vw;
+    height: 79vh;
+}
+#page2_1 h1{
+    font-size: 12vh;
+    font-family: 'Anton', sans-serif;
+    background-image: url(./Lagunitas-Website-YouTube-main/img/texture.png);
+    background-position: center;
+    background-size: cover;    
+    font-weight: 900;
+    background-color: black;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+}
+#p2_p{
+    font-style: italic;
+    font-family: Gilroy;
+}
+#page2_1 p{
+    font-size: 18px;
+}
+#page2_1 button{
+    width: 9vw;
+    height: 6vh;
+    margin-top: 12px;
+    text-transform: uppercase;
+    border: 0;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    font-family: 'dark heavy';
+}
+/* right section */
+#table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-evenly;
+    width: 26vw;
+    height: 65vh;
+    border: 3px solid black;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin: 2px;
+    border-top: 1px solid black;
+}
+#box span{
+    font-size: 32px;
+    color: black;
+}
+
+/* page 3 */
+#page3{
+    margin-top: 32px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 4.1vw 0 10vw;
+}
+#page3 #p3_h{
+    background-image: url(./Lagunitas-Website-YouTube-main/img/texture.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-weight: 900;
+    background-color: rgb(199, 29, 29);
+    font-family: 'Anton', sans-serif;
+    font-size: 13vw;
+    text-transform: uppercase;    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-font-smoothing: antialiased;
+}
+#page3_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#p3_2_1{
+    width: 25vw;
+}
+#p3_2_1 img{
+    width: 20vw;
+}
+#p3_2_2 {
+    width: 25vw;
+}
+#p3_2_2 h1{
+    width: 32px;
+}
+#p3_2_2 p{
+    font-size: 18px;
+    text-align: start;
+}
+/* page 4 */
+#page4{
+    margin-top: 42px;
+    display: flex;
+    padding: 0 4.1vw 0 10vw;
+}
+/* single box */
+
+/* first */
+#page4_m1{
+    display: inline-block;
+    position: relative;    
+    margin-top: -100px;    
+    padding: 4px;
+    color: white;
+}
+#page4_m1_text{
+position: absolute;
+top: 0;
+text-align: center;
+font-family: 'Anton', sans-serif;
+left: 50%;
+padding-top: 32px;
+width: 120px;
+}
+#page4_m1_text h2{
+    border-bottom: 1px solid black;
+}
+#page4_m1_text h4{    
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+/* second */
+
+#page4_m2{
+    display: inline-block;
+    position: relative;    
+    padding: 4px;
+    color: white;
+}
+#page4_m2_text{
+position: absolute;
+top: 0;
+font-family: 'Anton', sans-serif;
+left: 50%;
+padding-top: 32px;
+text-align: center;
+width: 120px;
+height: 90px;
+}
+#page4_m2_text h2{
+    border-bottom: 1px solid black;
+}
+#page4_m2_text h4{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+#page4_m3{
+    display: inline-block;
+    position: relative;    
+    padding: 4px;
+    color: white;
+    margin: 0vh 0 0 40vh;
+}
+#page4_m3 img{
+    width: 370px;
+}
+#page4_m3_text{
+position: absolute;
+top: 0;
+font-family: 'Anton', sans-serif;
+left: 50%;
+padding-top: 32px;
+text-align: center;
+width: 120px;
+height: 90px;
+}
+#page4_m3_text h2{
+    border-bottom: 1px solid black;
+}
+#page4_m3_text h4{
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+#page4_img{
+    width: 280px;
+    rotate: -20deg;
+    margin: 40vh 0 0 -165vh;
+
+}
+
+/* page 5  */
+#page5{
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 4.1vw 0 10vw;  
+}
+#page5 img{
+    width: 260px;
+    rotate: -15deg;
+}
+#page5_bottles{
+    padding: 0 4.1vw 0 10vw;  
+    display: flex;
+}
+#ipa_img{
+    opacity: 0;
+}
+
+/* page 6 css */
+#page6{
+    margin-top: 32px;
+    padding: 0 4.1vw 0 10vw;
+    display: flex;
+    gap: 32px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+/* for image */
+#page6 img{
+    width: 52vw;
+}
+#page6_img{
+    width: 60vw;
+}
+/* for second section */
+#page6 h1{
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+#page6 h2{
+    font-size: 3vw;    
+}
+#page6 p{
+    letter-spacing: 0.8px;    
+}
+#page6 button{
+    border: 0;
+    width: 180px;
+    height: 50px;
+    color: white;
+    margin-top: 8px;
+    font-size: 21px;
+    text-transform: uppercase;
+    background-color: black;
+}
